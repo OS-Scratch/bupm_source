@@ -1,0 +1,14 @@
+# Under pkgdesc.yaml, the package manager gets the info about the package.
+# The package category contains info about the package. Name, version and description.
+package:
+    name: hello_world
+    version: 1.0.0
+    desc: "A dummy package for testing if bupm works."
+# Files determines what to copy.
+files:
+    targets:
+        # Files need to be said separately. The syntax doesn't matter as of now, but we will revise it after bupm release.
+        file1:
+            # Name contains the file to copy, target the destination.
+            name: "a.out"
+            target: "/usr/bin"
