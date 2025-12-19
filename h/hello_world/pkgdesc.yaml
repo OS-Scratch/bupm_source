@@ -11,4 +11,4 @@ files:
         file1:
             # Name contains the file to copy, target the destination.
             name: "a.out"
-            target: "/usr/bin"
+            target: "/usr/local/bin"
