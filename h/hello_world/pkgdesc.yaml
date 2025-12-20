@@ -1,9 +1,17 @@
-# Under pkgdesc.yaml, the package manager gets the info about the package.
+4# Under pkgdesc.yaml, the package manager gets the info about the package.
 # The package category contains info about the package. Name, version and description.
 package:
     name: hello_world
     version: 1.0.0
     desc: "A dummy package for testing if bupm works."
+dependencies:
+    direct:
+    pulled:
+system:
+    owner:
+    custom-root:
+    triggers:
+    license:
 # Files determines what to copy.
 files:
     targets:
