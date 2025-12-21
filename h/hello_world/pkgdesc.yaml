@@ -1,4 +1,4 @@
-4# Under pkgdesc.yaml, the package manager gets the info about the package.
+# Under pkgdesc.yaml, the package manager gets the info about the package.
 # The package category contains info about the package. Name, version and description.
 package:
     name: hello_world
