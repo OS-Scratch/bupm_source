@@ -14,6 +14,7 @@ system:
     license:
 # Files determines what to copy.
 files:
+    type: filedec
     targets:
         # Files need to be said separately. The syntax doesn't matter as of now, but we will revise it after bupm release.
         file1:
