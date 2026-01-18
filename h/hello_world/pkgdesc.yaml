@@ -7,13 +7,6 @@ package:
 dependencies:
     direct:
     pulled:
-# Don't get confused - this section provides info about what this pkg (here hello_world) provides, while the above the needed dependencies shows
-dependency:
-    provides:
-        library: none
-        file: ["/usr/bin/hello_world"]
-    mounts:
-        fs: none
 system:
     owner:
     custom-root:
@@ -23,14 +16,3 @@ security:
     requires: none
     deprecated: no
     permission: none
-    
-# Files determines what to copy.
-files:
-    # Filedec means we declare the files to copy here
-    type: filedec
-    targets:
-        # Files need to be said separately. The syntax doesn't matter as of now, but we will revise it after bupm release.
-        file1:
-            # Name contains the file to copy, target the destination.
-            name: "hello_world"
-            target: "/usr/bin"
