@@ -2,7 +2,7 @@
 # The package category contains info about the package. Name, version and description.
 package:
     name: hello_world
-    version: 1.0.0
+    version: 1.0.1
     desc: "A dummy package for testing if bupm works."
 dependencies:
     direct:
