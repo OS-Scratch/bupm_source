@@ -1,6 +1,6 @@
 [package]
 name = "tomlplusplus"
-version = "1.0.2"
+version = "3.4.0"
 desc = "C++ library for using TOML code in projects"
 
 [dependencies]
