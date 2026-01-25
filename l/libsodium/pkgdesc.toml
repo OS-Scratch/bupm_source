@@ -1,0 +1,17 @@
+[package]
+name = "libsodium"
+version = "1.0.21"
+desc = "C library for encryption mechanisms"
+
+[dependencies]
+
+[system]
+owner = ""
+custom-root = ""
+triggers = []
+license = ""
+
+[security]
+requires = "none"
+deprecated = false
+permission = "none"
