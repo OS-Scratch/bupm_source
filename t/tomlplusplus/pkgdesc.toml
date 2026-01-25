@@ -1,0 +1,17 @@
+[package]
+name = "tomlplusplus"
+version = "1.0.2"
+desc = "C++ library for using TOML code in projects"
+
+[dependencies]
+
+[system]
+owner = ""
+custom-root = ""
+triggers = []
+license = ""
+
+[security]
+requires = "none"
+deprecated = false
+permission = "none"
