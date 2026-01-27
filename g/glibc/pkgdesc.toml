@@ -1,0 +1,17 @@
+[package]
+name = "glibc"
+version = "2.43.0"
+desc = "GNU Standard C library for Linux"
+
+[dependencies]
+
+[system]
+owner = ""
+custom-root = ""
+triggers = []
+license = ""
+
+[security]
+requires = "none"
+deprecated = false
+permission = "none"

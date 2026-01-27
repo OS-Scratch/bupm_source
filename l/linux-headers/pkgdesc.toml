@@ -1,0 +1,17 @@
+[package]
+name = "linux-headers"
+version = "6.18.7"
+desc = "Linux kernel headers"
+
+[dependencies]
+
+[system]
+owner = ""
+custom-root = ""
+triggers = []
+license = ""
+
+[security]
+requires = "none"
+deprecated = false
+permission = "none"

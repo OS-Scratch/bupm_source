@@ -1,0 +1,17 @@
+[package]
+name = "zlib-ng"
+version = "2.3.2"
+desc = "A modern zlib replacement."
+
+[dependencies]
+
+[system]
+owner = ""
+custom-root = ""
+triggers = []
+license = ""
+
+[security]
+requires = "none"
+deprecated = false
+permission = "none"

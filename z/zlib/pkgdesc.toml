@@ -1,0 +1,18 @@
+[package]
+name = "zlib"
+version = "0.1.0"
+desc = "wrapper for redirecting to zlib-ng"
+
+[dependencies]
+direct = "zlib-ng"
+
+[system]
+owner = ""
+custom-root = ""
+triggers = []
+license = ""
+
+[security]
+requires = "none"
+deprecated = false
+permission = "none"
