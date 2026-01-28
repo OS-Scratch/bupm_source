@@ -4,7 +4,7 @@ version = "0.1.0"
 desc = "wrapper for redirecting to zlib-ng"
 
 [dependencies]
-direct = "zlib-ng"
+direct = ["zlib-ng"]
 
 [system]
 owner = ""
