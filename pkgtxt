@@ -3,3 +3,5 @@ tomlplusplus
 libsodium
 glibc
 linux-headers
+zlib
+zlib-ng
