@@ -4,7 +4,7 @@ version = "1.0.0"
 desc = "bupm test package - dependency handling"
 
 [dependencies]
-direct = ["hello-world"]
+direct = ["hello_world"]
 
 [system]
 owner = ""
