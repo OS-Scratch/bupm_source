@@ -5,3 +5,4 @@ glibc
 linux-headers
 zlib
 zlib-ng
+hello_deps
